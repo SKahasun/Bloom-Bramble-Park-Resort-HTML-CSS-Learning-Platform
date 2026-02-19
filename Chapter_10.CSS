@@ -1,0 +1,60 @@
+#typeSelector h2 {
+  background-color: aquamarine;
+  padding: 2px;
+}
+
+#main-heading {
+  color: red;
+  text-align: center;
+  font-size: 24px;
+}
+#sub_section {
+  text-align: justify;
+  border: none;
+  color: black;
+}
+
+.form {
+  background-color: red;
+  margin: 20px;
+  padding: 10px;
+}
+.input-field {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+.fistlater::first-letter {
+  font-size: 30px;
+  color: black;
+}
+.fistlater::first-line {
+  background-color: red;
+  color: white;
+}
+
+[placeholder] {
+  border: 3px solid red;
+  margin-bottom: 5px;
+}
+[type="submit"] {
+  background-color: green;
+  color: white;
+}
+[type="reset"] {
+  background-color: red;
+  color: white;
+}
+[lang|="en"] {
+  border: 2px solid red;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+[lang~="US"] {
+  background-color: red;
+  color: white;
+}
+[lang^="en"] {
+  border-style: dotted;
+}

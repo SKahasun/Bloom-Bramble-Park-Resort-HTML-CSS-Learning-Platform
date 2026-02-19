@@ -1,0 +1,316 @@
+nav {
+    background:red;
+    padding: 16px 0;
+    
+}
+
+.navcontainer {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    padding: 6px 14px;
+}
+
+nav ul a:hover {
+    color: whitesmoke;
+    border-color: white;
+    border-radius: 20px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.welcome {
+    text-align: center;
+    padding: 65px 30px;
+    background: red;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.3);
+}
+
+.welcome div h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.chapterssection {
+    display: grid;
+    gap: 25px;
+}
+
+article {
+    background: red;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+article:hover {
+    box-shadow: 0 0 30px wheat;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.description {
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.link {
+    display: block;    
+    width: fit-content;
+    margin: 0 auto;    
+    padding: 8px 25px;
+    background: white;
+    color: red;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid transparent;
+}
+
+.link:hover {
+    color: white;
+    background-color: red;
+    border-color: white;
+}
+
+
+.footer {
+    background: red;
+    padding: 30px;
+    margin-top: 65px;
+}
+
+.Fcontent {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.slinks {
+    display: flex;
+    gap: 25px;
+}
+
+.slink {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    padding: 6px 14px;
+}
+
+.slink:hover {
+    color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .navcontainer {
+        max-width: 95% !important;
+        padding: 0 20px !important;
+    }
+
+    main {
+        max-width: 95% !important;
+        padding: 20px !important;
+    }
+
+    .welcome {
+        padding: 50px 20px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .welcome div h1 {
+        font-size: 40px !important;
+    }
+
+    .chapterssection {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .Fcontent {
+        max-width: 95% !important;
+        padding: 0 20px !important;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    nav {
+        padding: 12px 0 !important;
+    }
+
+    .navcontainer {
+        flex-direction: column !important;
+        gap: 15px !important;
+        padding: 0 15px !important;
+    }
+
+    .brand-text {
+        font-size: 20px !important;
+    }
+
+    nav ul {
+        gap: 16px !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+
+    nav ul a {
+        font-size: 16px !important;
+    }
+
+    nav ul a:hover {
+        padding: 4px 10px !important;
+    }
+
+    main {
+        padding: 15px !important;
+    }
+
+    .welcome {
+        padding: 40px 15px !important;
+        margin-bottom: 30px !important;
+        margin-top: 20px !important;
+    }
+
+    .welcome div h1 {
+        font-size: 32px !important;
+    }
+
+    .welcome p {
+        font-size: 18px !important;
+    }
+
+    h2 {
+        font-size: 32px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .chapterssection {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+
+    article {
+        padding: 18px !important;
+    }
+
+    .title {
+        font-size: 24px !important;
+    }
+
+    .description {
+        font-size: 15px !important;
+    }
+
+    .footer {
+        padding: 20px 15px !important;
+        margin-top: 40px !important;
+    }
+
+    .Fcontent {
+        flex-direction: column !important;
+        gap: 20px !important;
+        text-align: center !important;
+    }
+
+    .slinks {
+        gap: 15px !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+
+    .slink:hover {
+        padding: 4px 10px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .brand-text {
+        font-size: 18px !important  ;
+    }
+
+    nav ul {
+        gap: 8px !important;
+    }
+
+    nav ul a {
+        font-size: 14px !important;
+    }
+
+    .welcome div h1 {
+        font-size: 24px !important;
+    }
+
+    .welcome p {
+        font-size: 16px !important;
+    }
+
+    h2 {
+        font-size: 28px !important;
+    }
+
+    .title {
+        font-size: 22px !important;
+    }
+
+    article {
+        padding: 15px !important;
+    }
+
+    .link {
+        padding: 6px 20px !important;
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .chapterssection {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .chapterssection {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}

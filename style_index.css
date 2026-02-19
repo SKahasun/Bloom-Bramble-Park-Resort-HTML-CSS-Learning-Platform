@@ -1,0 +1,657 @@
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+nav {
+  background: red;
+  padding: 16px 0;
+}
+
+.footer {
+  background: red;
+  padding: 30px;
+  margin-top: 65px;
+}
+
+.Fcontent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slinks {
+  display: flex;
+  gap: 25px;
+}
+
+.slink {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  padding: 6px 14px;
+}
+
+.slink:hover {
+  color: whitesmoke;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.nc {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  gap: 250px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  padding: 6px 14px;
+}
+
+nav ul a:hover {
+  color: whitesmoke;
+  border-color: white;
+  border-radius: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 15px 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: red;
+}
+
+.btn-white {
+  background-color: white;
+  color: #e63946;
+  border: 2px solid white;
+}
+
+.btn-white:hover {
+  background-color: transparent;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 50px;
+  display: block;
+  font-weight: 300;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu a {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: black;
+}
+
+.nav-menu a:hover {
+  color: red;
+}
+
+.slogan {
+  height: 100vh;
+  object-fit: cover;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("Image/xavier-coiffic\ park.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.slogan h1 {
+  font-size: 80px;
+  text-shadow: 2px 2px 0 red;
+  margin-bottom: 20px;
+}
+
+.slogan p {
+  font-size: 24px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.parkpoint {
+  background-color: red;
+  color: white;
+  padding: 40px 0;
+}
+
+.parkpointsection {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.parkpoint-i h3 {
+  font-size: 36px;
+  font-weight: 900;
+}
+.parkpoint-i p {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.rides {
+  background-color: white;
+}
+.ride-s {
+  display: grid;
+  margin: 0 30px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+}
+.ride-p {
+  background: white;
+  box-shadow: 0 10px 30px rgba(15, 15, 15, 0.05);
+  border-bottom: red 5px solid;
+  margin-bottom: 20px;
+}
+.ride-p:hover {
+  transform: translateY(-10px);
+}
+.ride-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.ride-info {
+  padding: 30px;
+}
+.ride-info h3 {
+  color: red;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.resortb {
+  background-image:
+    linear-gradient(rgba(255, 0, 21, 0.15), rgba(240, 2, 22, 0.45)),
+    url("Image/Grand\ Hotel\ &\ Spa.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  height: 700px;
+}
+.resortt {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.feature {
+  background: rgba(222, 32, 32, 0.6);
+  padding: 30px;
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 18px;
+}
+.photog {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.photog-t {
+  flex: 1;
+  padding: 0 50px;
+}
+.photog-t h3 {
+  font-size: 32px;
+  color: red;
+  margin-bottom: 15px;
+}
+.photog-m {
+  flex: 1;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: 15px 15px 0 red;
+  border-radius: 0 0 20px 0;
+}
+
+.photog-m2 {
+  flex: 1;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: -15px 15px 0 0 red;
+  border-radius: 0 0 0 20px;
+}
+.dining {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("Image/dining.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 761px) and (max-width: 1080px) {
+  .nc {
+    gap: 100px  !important;
+    padding: 0 30px  !important;
+  }
+  
+  .ride-s {
+    grid-template-columns: repeat(2, 1fr)  !important;
+    gap: 30px  !important;
+    margin: 0 30px  !important;
+  }
+  .resortb {
+    height: auto !important;
+    padding: 40px 15px !important;
+    background-attachment: scroll !important;
+  }
+  
+  .resortb .container {
+    padding: 20px 10px !important;
+  }
+  
+  .resortb h2 {
+    font-size: 26px !important;
+  }
+  
+  .resortb p {
+    font-size: 16px !important;
+    max-width: 100% !important;
+  }
+  
+  .resortt {
+    gap: 20px !important;
+    justify-content: center !important;
+  }
+  
+  .feature {
+    width: 45% !important;
+    min-width: 250px !important;
+  }
+  
+  .photog {
+    flex-direction: column !important;
+    margin-bottom: 40px !important;
+  }
+  
+  .photog-t {
+    padding: 20px 15px !important;
+    order: 2;
+  }
+  
+  .photog-t h3 {
+    font-size: 24px !important;
+  }
+  
+  .photog-m,
+  .photog-m2 {
+    height: 250px !important;
+    width: 100% !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+  
+  .dining {
+    padding: 120px 40px !important;
+  }
+  
+  .resortb {
+    height: 600px !important;
+    padding: 80px 30px !important;
+  }
+  
+  .resortb .container {
+    padding: 40px 30px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 760px) {
+  .nc {
+    gap: 40px !important;
+    padding: 0 20px !important;
+  }
+  
+  nav ul {
+    gap: 15px !important;
+  }
+  
+  nav ul a {
+    font-size: 16px !important;
+  }
+  
+  .slogan {
+    background-attachment: scroll !important;
+  }
+  
+  .slogan h1 {
+    font-size: 50px !important;
+  }
+  
+  .slogan p {
+    font-size: 18px !important;
+    padding: 0 30px !important;
+  }
+  
+  .parkpointsection {
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+    justify-content: center !important;
+  }
+  
+  .ride-s {
+    grid-template-columns: 1fr  !important;
+    margin: 0 20px  !important;
+    gap: 30px  !important;
+  }
+  
+  h2 {
+    font-size: 2.2rem !important;
+  }
+  
+  .subtitle {
+    font-size: 18px !important;
+  }
+  
+  .resortb {
+    height: auto !important;
+    padding: 40px 15px !important;
+    background-attachment: scroll;
+  }
+  
+  .resortb .container {
+    padding: 20px 10px !important;
+  }
+  
+  .resortb h2 {
+    font-size: 26px !important;
+  }
+  
+  .resortb p {
+    font-size: 16px !important;
+    max-width: 100% !important;
+  }
+  
+  .resortt {
+    gap: 20px !important;
+    justify-content: center  !important;
+  }
+  
+  .feature {
+    width: 45% !important;
+    min-width: 250px !important;
+  }
+  
+  .photog {
+    flex-direction: column  !important;
+    margin-bottom: 40px  !important;
+  }
+  
+  .photog-t {
+    padding: 20px 15px !important;
+  }
+  
+  .photog-t h3 {
+    font-size: 24px !important;
+  }
+  
+  .photog-m,
+  .photog-m2 {
+    height: 250px !important;
+    width: 100% !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+  
+  .dining {
+    padding: 80px 20px !important;
+    background-attachment: scroll !important;
+  }
+  
+  .dining p {
+    font-size: 18px !important;
+  }
+  
+  .Fcontent {
+    padding: 0 20px  !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .nc {
+    flex-direction: column !important;
+    gap: 15px !important;
+    padding: 10px !important;
+  }
+  
+  .pname {
+    font-size: 20px !important;
+  }
+  
+  nav ul {
+    flex-direction: column !important;
+    gap: 10px !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  
+  nav {
+    height: auto !important;
+    padding: 15px 0 !important;
+  }
+  
+  nav ul a {
+    font-size: 16px !important;
+  }
+  
+  .slogan {
+    background-attachment: scroll !important;
+    height: 70vh !important;
+  }
+  
+  .slogan h1 {
+    font-size: 36px !important;
+    padding: 0 15px !important;
+  }
+  
+  .slogan p {
+    font-size: 16px !important;
+    padding: 0 20px;
+  }
+  
+  .parkpointsection {
+    flex-direction: column !important;
+    gap: 20px !important;
+    padding: 0 20px !important;
+  }
+  
+  .parkpoint-i h3 {
+    font-size: 28px !important;
+  }
+  
+  .FamousRides {
+    padding: 40px 15px !important;
+  }
+  
+  h2 {
+    font-size: 26px !important;
+    padding: 0 15px !important;
+  }
+  
+  .subtitle {
+    font-size: 16px !important;
+    padding: 0 15px !important;
+  }
+  
+  .ride-s {
+    grid-template-columns: 1fr;
+    margin: 0 15px !important;
+    gap: 20px !important;
+  }
+  
+  .ride-img {
+    height: 250px !important;
+  }
+  
+  .ride-info {
+    padding: 20px !important;
+  }
+  
+  .resortb {
+    height: auto !important;
+    padding: 40px 15px !important;
+    background-attachment: scroll !important;
+  }
+  
+  .resortb .container {
+    padding: 20px 10px !important;
+  }
+  
+  .resortb h2 {
+    font-size: 1.8rem !important;
+  }
+  
+  .resortb p {
+    font-size: 16px !important;
+    max-width: 100% !important;
+  }
+  
+  .resortt {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+    margin-top: 30px !important;
+  }
+  
+  .feature {
+    width: 90% !important;
+    max-width: 100%;
+    padding: 20px !important;
+  }
+  
+  .photog {
+    flex-direction: column !important;
+    margin-bottom: 40px !important;
+  }
+  
+  .photog-t {
+    padding: 20px 15px !important;
+    order: 2;
+  }
+  
+  .photog-t h3 {
+    font-size: 24px;
+  }
+  
+  .photog-m,
+  .photog-m2 {
+    height: 250px !important;
+    width: 100%;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+  
+  .dining {
+    padding: 60px 15px !important;
+    margin-bottom: 0 !important;
+    background-attachment: scroll;
+  }
+  
+  .dining h2 {
+    font-size: 1.8rem !important;
+  }
+  
+  .dining .subtitle {
+    font-size: 16px !important;
+  }
+  
+  .dining p {
+    font-size: 16px !important;
+    max-width: 100% !important;
+    padding: 0 15px;
+  }
+  
+  .footer {
+    padding: 20px !important;
+    margin-top: 40px !important;
+  }
+  
+  .Fcontent {
+    flex-direction: column !important;
+    gap: 20px !important;
+    padding: 0 15px !important;
+  }
+  
+  .slinks {
+    flex-direction: column !important;
+    gap: 15px !important;
+    align-items: center !important;
+  }
+  
+  .btn {
+    padding: 12px 25px !important;
+    font-size: 12px !important;
+  }
+}

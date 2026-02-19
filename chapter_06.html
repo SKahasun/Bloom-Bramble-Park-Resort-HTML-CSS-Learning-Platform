@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 06 - HTML Multimedia</title>
+    <link rel="icon" type="image/x-icon" href="Image/html_icon_.ico" />
+    <link rel="stylesheet" href="chapter-style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Georgia", "Times New Roman", serif;
+        background-color: white;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navcontainer">
+        <div>
+          <span
+            class="html-css-p"
+            style="
+              font-size: 24px;
+              font-weight: bold;
+              color: white;
+              font-family: &quot;Courier New&quot;, Courier, monospace;
+            "
+            >Bloom & Bramble</span
+          >
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ChapterHomePage.html#chapterssection">Chapters</a></li>
+          <li><a href="developer-details.html">Developer Details</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="welcome">
+      <div>
+        <h1>Chapter 06</h1>
+        <p style="font-size: 21px; color: white">HTML Multimedia</p>
+      </div>
+    </section>
+
+    <div class="mainc">
+      <aside class="sidebar">
+        <h3 class="tableofcontent">Table of Contents</h3>
+        <nav
+          class="tableNav"
+          style="
+            background-color: white;
+            border: 3px solid red;
+            border-radius: 15px;
+          "
+        >
+          <ol>
+            <li><a href="#audio">1. Audio</a></li>
+            <li><a href="#video">2. Video</a></li>
+          </ol>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <section id="audio" class="content-section">
+          <h3>1. Audio</h3>
+          <p>
+            The <code>&lt;audio&gt;</code> element is used to embed sound
+            content in a web page. It supports various audio formats and
+            provides controls for playback. <br />
+            <audio controls muted autoplay loop>
+              <source src="Audio/universfield-ringtone.mp3" type="audio/mpeg" />
+            </audio>
+          </p>
+          <div class="example-box">
+            <h4>Code:</h4>
+            <pre><code>&lt;audio controls muted autoplay loop&gt;
+  &lt;source src=&quot;Audio/universfield-ringtone.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;/audio&gt;</code></pre>
+          </div>
+        </section>
+
+        <section id="video" class="content-section">
+          <h3>2. Video</h3>
+          <p>
+            The <code>&lt;video&gt;</code> element is used to embed video
+            content in a web page. It supports various video formats and
+            provides controls for playback.
+            <video width="800" controls muted autoplay loop>
+              <source src="Video/music pad.mp4" type="video/mp4" />
+            </video>
+          </p>
+          <div class="example-box">
+            <h4>Code:</h4>
+            <pre><code>&lt;video width=&quot;800&quot; controls muted autoplay loop&gt;
+  &lt;source src=&quot;Video/music pad.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;</code></pre>
+          </div>
+        </section>
+
+        <div class="button">
+          <a href="chapter_05.html" class="btn">&#8592; Previous</a>
+          <a href="chapter_07.html" class="btn">Next &#8594;</a>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="Fcontent">
+        <p style="color: white; text-align: center">
+          Copyright &copy; 2026 Sheikh Ahasunul Islam
+        </p>
+        <div class="slinks">
+          <a href="https://github.com/SKahasun" class="slink">GitHub</a>
+          <a href="https://www.facebook.com/ehsunul.sk" class="slink"
+            >Facebook</a
+          >
+          <a href="mailto:sheikhahasunul@gmail.com" class="slink">Email</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

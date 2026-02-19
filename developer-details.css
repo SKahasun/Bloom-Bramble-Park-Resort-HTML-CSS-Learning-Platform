@@ -1,0 +1,410 @@
+nav {
+  background: red;
+  padding: 16px 0;
+}
+
+.navcontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  padding: 6px 14px;
+}
+
+nav ul a:hover {
+  color: whitesmoke;
+  border-color: white;
+  border-radius: 20px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.developer-header {
+  text-align: center;
+  padding: 65px 30px;
+  background: red;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.3);
+}
+
+.developer-header h1 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.developer-header p {
+  font-size: 24px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.developer-profile {
+  margin-bottom: 50px;
+}
+
+.Dphoto {
+  background: red;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.myphoto {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.myInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.myDetails {
+  border-bottom: 2px solid rgba(251, 247, 247, 0.3);
+  padding-bottom: 15px;
+}
+
+
+.details-head {
+  font-size: 24px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.all-detalis {
+  font-size: 20px;
+  color: whitesmoke;
+  line-height: 1.6;
+}
+
+.email {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.email:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.social-btn {
+  padding: 10px 25px;
+  background: white;
+  color: red;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  font-weight: 500;
+}
+
+.social-btn:hover {
+  background: red;
+  color: white;
+  border-color: white;
+}
+
+.about-section {
+  background: red;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+}
+
+.about-title {
+  font-size: 2rem;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-text {
+  color: whitesmoke;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.footer {
+  background: red;
+  padding: 30px;
+  margin-top: 65px;
+}
+
+.Fcontent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  text-align: center;
+}
+
+.slinks {
+  display: flex;
+  gap: 25px;
+}
+
+.slink {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  padding: 6px 14px;
+}
+
+.slink:hover {
+  color: whitesmoke;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .navcontainer {
+    max-width: 95%;
+    padding: 0 20px;
+  }
+
+  main {
+    max-width: 95%;
+    padding: 20px;
+  }
+
+  .developer-header {
+    padding: 50px 20px;
+    margin-bottom: 40px;
+  }
+
+  .developer-header h1 {
+    font-size: 30px;
+  }
+
+  .developer-header p {
+    font-size: 20px;
+  }
+
+  .Dphoto {
+    grid-template-columns: 250px 1fr;
+    gap: 30px;
+    padding: 30px;
+  }
+
+  .profile-image {
+    width: 220px;
+    height: 220px;
+  }
+
+  .Fcontent {
+    max-width: 95%;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  nav {
+    padding: 12px 0;
+  }
+
+  .navcontainer {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 15px;
+  }
+
+  .pname {
+    font-size: 20px !important;
+  }
+
+  nav ul {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul a {
+    font-size: 16px;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .developer-header {
+    padding: 40px 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .developer-header h1 {
+    font-size: 34px;
+  }
+
+  .developer-header p {
+    font-size: 16px;
+  }
+
+  .Dphoto {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 25px;
+  }
+
+  .myphoto {
+    justify-content: center;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .myDetails {
+    padding-bottom: 12px;
+  }
+
+  .details-head {
+    font-size: 18px;
+  }
+
+  .all-detalis {
+    font-size: 16px;
+  }
+
+  .social-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-section {
+    padding: 30px 20px;
+  }
+
+  .about-title {
+    font-size: 24px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .footer {
+    padding: 20px 15px;
+    margin-top: 40px;
+  }
+
+  .Fcontent {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .slinks {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pname {
+    font-size: 18px !important;
+  }
+
+  nav ul {
+    gap: 8px;
+  }
+
+  nav ul a {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+
+  .developer-header h1 {
+    font-size: 24px;
+  }
+
+  .developer-header p {
+    font-size: 14px;
+  }
+
+  .Dphoto {
+    padding: 20px;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .details-head {
+    font-size: 16px;
+  }
+
+  .all-detalis {
+    font-size: 14px;
+  }
+
+  .social-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .about-section {
+    padding: 25px 15px;
+  }
+
+  .about-title {
+    font-size: 24px;
+  }
+
+  .about-text {
+    font-size: 14px;
+  }
+}
