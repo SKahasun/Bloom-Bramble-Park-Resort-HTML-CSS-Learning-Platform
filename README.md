@@ -1,7 +1,3 @@
-A comprehensive web development crash course covering HTML5 and CSS3 fundamentals, built as a fully responsive multi-page website.
-
----
-
 ## 📖 About
 
 **Bloom & Bramble** is an educational platform designed for beginners in web development. It provides 20 structured chapters walking through HTML and CSS concepts with live code examples and interactive demonstrations — all wrapped inside a themed theme park & resort landing page.
